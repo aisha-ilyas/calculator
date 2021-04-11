@@ -60,3 +60,12 @@ body {
 
 button:hover { background-color: #E3F8BC; }
 button:active { background-color: #c3f36b; }
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+    .layout {
+        width: 300px;
+    }
+    .size-1 { width: 23.2%; }
+    .size-2 { width: 47.8%; }
+    .size-3 { width: 73%; }
+}
